@@ -6,7 +6,7 @@ This code was submitted on [Kaggle's Deepfake Detection Challenge](https://www.k
 - Oversampling (for handling class-imbalance problem as 77 real and 323 fake labels in the 4 GB dataset on Kaggle).
 - Captured 20 continuous frames from each video.
 - Extracted the best possible face (ROI) from each frame using BlazeFace PyTorch.
-- Isotropically rescaled the ROI for keeping the aspect ratio intact.
+- Isotropically resized the ROI for keeping the aspect ratio intact.
 - Zero-padded if required.
 - Pre-padded in case face is not detected in a particular frame.
 - NumPy array of shape (batch_size, 20, 299, 299, 3) is formed and sent to Inception-V3 for feature extraction.
