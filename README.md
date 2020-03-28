@@ -17,6 +17,7 @@ For reference, PyTorch implementation of BlazeFace is demonstrated in this [GitH
 - [x] Handle imbalanced dataset (oversampling).
 - [x] Extract ROI using BlazeFace PyTorch.
 - [x] Image pre-processing.
+- [ ] Sort by Histogram in case of multiple faces in a video. 
 - [x] Pre-padding the sequences.
 - [x] CNN (Inception-V3) for feature extraction.
 - [x] Implementing a recurrent neural network for exploiting temporal inconsistencies.
