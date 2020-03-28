@@ -13,12 +13,14 @@ Weights of BlazeFace (implemented in PyTorch) are loaded from this [Kaggle datas
 
 For reference, PyTorch implementation of BlazeFace is demonstrated in this [GitHub repository](https://github.com/hollance/BlazeFace-PyTorch).
 
-# Methods
-- [x] Extracting ROI using BlazeFace PyTorch.
+# Tasks
+- [x] Handle imbalanced dataset (oversampling).
+- [x] Extract ROI using BlazeFace PyTorch.
+- [x] Image pre-processing.
+- [x] Pre-padding the sequences.
 - [x] CNN (Inception-V3) for feature extraction.
-- [x] Handling imbalanced dataset (oversampling).
-- [x] Implementing a recurrent neural network.
+- [x] Implementing a recurrent neural network for exploiting temporal inconsistencies.
 - [ ] ResNeXt.
-- [ ] Xception.
+- [ ] Xception network.
 - [ ] EfficientNet.
-- [ ] Handle voice manipulations.
+- [ ] Handle voice manipulations (spectrogram).
