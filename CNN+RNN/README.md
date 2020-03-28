@@ -11,7 +11,8 @@ The dataset can be downloaded from the [competition site](https://www.kaggle.com
 
 ### Face Detection:
 BlazeFace is a fast, light-weight face detector from Google Research.
-Weights of BlazeFace implemented in PyTorch is taken from this [Kaggle dataset](https://www.kaggle.com/humananalog/blazeface-pytorch).
+Weights of BlazeFace implemented in PyTorch are loaded from this [Kaggle dataset](https://www.kaggle.com/humananalog/blazeface-pytorch).
+
 PyTorch implementation of BlazeFace is demonstrated in this [GitHub repository](https://github.com/hollance/BlazeFace-PyTorch).
 
 ### Reference Paper:
