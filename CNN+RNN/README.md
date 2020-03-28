@@ -2,6 +2,13 @@
 
 This code was submitted on [Kaggle's Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge). The model is trained on only 4 GB dataset directly available on Kaggle. Achieved a log loss of 1.05. This can be reduced to a great extent by training the dataset on entire 470 GB dataset.
 
+### Prerequisites
+- OpenCV 4.1.2
+- NumPy 1.17.4
+- Pandas 0.25.3
+- PyTorch 1.3.0
+- Tensorflow 2.1.0-rc0
+
 ### Steps
 - Oversampling (for handling class-imbalance problem as 77 real and 323 fake labels in the 4 GB dataset on Kaggle).
 - Captured 20 continuous frames from each video.
