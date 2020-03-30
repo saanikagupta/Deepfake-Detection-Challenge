@@ -36,7 +36,7 @@ Weights of BlazeFace (implemented in PyTorch) are loaded from this [Kaggle datas
 
 For reference, PyTorch implementation of BlazeFace is demonstrated in this [GitHub repository](https://github.com/hollance/BlazeFace-PyTorch).
 
-### Remaining tasks and models to try
+### Future work
 - [ ] Sort by Histogram in case of multiple faces in a video. 
 - [ ] ResNeXt.
 - [ ] Xception network.
