@@ -11,7 +11,7 @@ The dataset can be downloaded from the [competition site](https://www.kaggle.com
 
 ### Deepfake Detection using Inception-V3 and RNN network
 
-This code was submitted on [Kaggle's Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge). The model is trained on only 4 GB dataset directly available on Kaggle. Achieved a log loss of 1.05. This can be reduced to a great extent by training the dataset on entire 470 GB dataset.
+This code was submitted on [Kaggle's Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge). The model is trained on only 4 GB dataset which is directly available on Kaggle. Achieved a log loss of 1.05. This can be reduced to a great extent by training the dataset on entire 470 GB dataset.
 
 ### Prerequisites
 - OpenCV 4.1.2
