@@ -44,5 +44,5 @@ For reference, PyTorch implementation of BlazeFace is demonstrated in this [GitH
 - [ ] Handle voice manipulations (spectrogram).
 
 ### References
-- David G¨uera, Edward J. Delp. [Deepfake Video Detection Using Recurrent Neural Networks](https://arxiv.org/abs/1609.07910).
+- David Güera, Edward J. Delp. [Deepfake Video Detection Using Recurrent Neural Networks](https://ieeexplore.ieee.org/document/8639163).
 - [Kaggle kernel](https://www.kaggle.com/c/deepfake-detection-challenge/notebooks) for face extraction and image pre-processing.
